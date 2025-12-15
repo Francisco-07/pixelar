@@ -108,7 +108,7 @@ const Portfolio = () => {
                 gap: 2.5,
                 p: 5,
                 background:
-                  'linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)),url(images/pagina.jpg)',
+                  `linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)),url(images/pagina${i}.jpg)`,
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center',
@@ -116,7 +116,7 @@ const Portfolio = () => {
                 boxShadow: 8,
                 '&:hover': {
                   background:
-                    'linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),url(images/pagina.jpg)',
+                  `linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),url(images/pagina${i}.jpg)`,
                   backgroundSize: 'cover',
                   backgroundRepeat: 'no-repeat',
                   backgroundPosition: 'center',

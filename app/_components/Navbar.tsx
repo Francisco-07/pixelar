@@ -21,7 +21,7 @@ const Navbar = () => {
           height: '100px',
           zIndex: 90,
           color: 'common.white',
-          bgcolor: 'transparent',
+          bgcolor: 'black',
         }}
       >
         <Container
